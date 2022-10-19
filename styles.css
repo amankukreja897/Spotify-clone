@@ -1,0 +1,231 @@
+body{
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  margin-bottom: 4px;
+
+
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+nav{
+  font-family:'ubuntu' , sans-serif;
+
+}
+nav ul li{
+  padding: 0 12px;
+}
+ nav ul{
+
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+
+  color: white;
+
+}
+.brand img{
+  width:auto;
+  height: 35px;
+  padding: 0 8px;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.homelogo{
+  width: 20px;
+  height: 20px;
+  margin-right:2 px;
+  margin-bottom: 5px;
+
+
+}
+.brand{
+
+  align-items: center;
+}
+
+.main-div{
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+}
+
+.lefta li:hover{
+  color: gray;
+  cursor: pointer;
+}
+
+.sixbannerimg :hover{
+  box-shadow: 4px 4px 4px 4px grey;
+  border-radius: 4px;
+}
+.threebanners1a:hover{
+  background-color: rgba(250, 250, 250,0.3);
+}
+
+.left1{
+  list-style-type: none;
+background-color: #0E0908;
+margin-right: 0;
+  align-items: center;
+  width: 250px;
+  height: 90vh;
+  color: white;
+}
+.lefta li{
+  list-style-type: none;
+margin-bottom: 10px;
+
+
+  align-items: center;
+}
+.images1{
+  margin-right:15px;
+}
+.line{
+  margin: 0 20 0 20;
+}
+hr{
+  border-width: 5;
+}
+.playlist{
+  margin-left: 32px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+
+
+
+
+
+.right{
+  background-color: #161617 ;
+  width: 100%;
+}
+
+
+
+.goodmorning{
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+
+}
+
+.boxes{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+.threebanners1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+ 
+}
+.threebanners1a{
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  background-color: rgb(250, 250, 250,0.1);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.bannerphoto img{
+  width: 100px;
+  height: 100px;
+}
+.bannerdata{
+  font-size: 15px;
+  font-weight: bolder;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
+}
+
+.yourtop{
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 30px;
+
+}
+
+.sixbanners{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.sixbanners1{
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  justify-content: center;
+  /* background-color: rgb(250, 250, 250,0.1); */
+  margin-right: auto;
+  margin-left: 35px;
+}
+
+.sixbannerdata{
+  font-size: 15px;
+  font-weight: bolder;
+  color: white;
+  text-align:center;
+  
+}
+
+.sixbannerimg img{
+  width: 150px;
+  height: 150px;
+justify-items: center;
+}
+
+
+/* *******************************************js********************************** */
+
+
+
+.bottom{
+  position: sticky;
+  height: 85px;
+  /* background-color: #262424; */
+  background-color: #141414;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  height: 10vh;
+}
+
+#progressbar{
+  width: 40vw;
+  
+}
+.icons img{
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+  margin-left: 3px;
+  margin-right: 3px;
+  cursor: pointer;
+}
